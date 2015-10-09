@@ -1,2 +1,5 @@
 # MvcWithRoles
-ASP.NET MVC 5 with Identity 2.0 - int id's for users and roles, with users/roles admin
+ASP.NET MVC 5 with Identity 2.0 
+
+* Numeric id's (int) for users and roles
+* Users/roles admin UI
