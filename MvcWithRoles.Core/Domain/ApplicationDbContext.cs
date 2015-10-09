@@ -32,7 +32,11 @@ namespace MvcWithRoles.Core.Domain
         {
             base.OnModelCreating(modelBuilder);
 
-            // Here you can put FluentAPI code or add configuration map's
+            modelBuilder.Entity<ApplicationUser>().ToTable("ApplicationUsers");
+            modelBuilder.Entity<ApplicationUserRole>().ToTable("ApplicationUserRoles");
+            modelBuilder.Entity<ApplicationUserLogin>().ToTable("ApplicationUserLogins");
+            modelBuilder.Entity<ApplicationUserClaim>().ToTable("ApplicationUserClaims");
+            modelBuilder.Entity<ApplicationRole>().ToTable("ApplicationRoles");
         }
     }
 }
