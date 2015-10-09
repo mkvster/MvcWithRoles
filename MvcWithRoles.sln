@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MvcWithRoles.Web", "MvcWithRoles.Web\MvcWithRoles.Web.csproj", "{60A10E4B-B8E2-4AA7-B2A2-932744F510C4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MvcWithRoles.Core", "MvcWithRoles.Core\MvcWithRoles.Core.csproj", "{A331B981-DC81-47D5-8F9E-D688B413A57E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{60A10E4B-B8E2-4AA7-B2A2-932744F510C4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{60A10E4B-B8E2-4AA7-B2A2-932744F510C4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{60A10E4B-B8E2-4AA7-B2A2-932744F510C4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{60A10E4B-B8E2-4AA7-B2A2-932744F510C4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A331B981-DC81-47D5-8F9E-D688B413A57E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A331B981-DC81-47D5-8F9E-D688B413A57E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A331B981-DC81-47D5-8F9E-D688B413A57E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A331B981-DC81-47D5-8F9E-D688B413A57E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
