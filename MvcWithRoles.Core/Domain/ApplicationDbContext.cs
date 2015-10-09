@@ -16,13 +16,10 @@ namespace MvcWithRoles.Core.Domain
         public ApplicationDbContext()
             : base("DefaultConnection")
         {
-            //this.Database.SetInitializer<ApplicationDbContext>(new ApplicationCreateDb());
         }
 
         static ApplicationDbContext()
         {
-            Debug.WriteLine("X");
-            // Seed the database
             sys_data.Database.SetInitializer<ApplicationDbContext>(new ApplicationCreateDb());
         }
 
